@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.h1Container {
+    width: 100%;
+    background-color: greenyellow;
+    border: 2px solid black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.entry {
+    width: 100%;
+    background-color: cyan;
+    border: 1px solid black;
+}
+
+p {
+    max-width: 50%;
+}
