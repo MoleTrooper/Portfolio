@@ -4,11 +4,21 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.content, .year {
+    width: 100%;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.topHeader, .year {
+    background: url('bggradient.svg') no-repeat, url('stripepattern.svg') repeat;
+    background-size: 100% 100%, 80px 80px;
+}
+
 .topHeader {
     width: 100%;
     padding: 15vh 0;
     text-align: center;
-    background-color: gold;
 }
 
 .topHeader p {
@@ -18,19 +28,24 @@ body {
     font-size: 14px;
 }
 
+.entry {
+    width: 100%;
+    margin-left: 20px;
+}
+
 .h1Container {
     width: 100%;
-    background-color: greenyellow;
-    border: 2px solid black;
+    background: url('header.svg');
     padding: 10px 0;
     text-align: center;
 }
 
-.entry {
-    width: 100%;
-    background-color: cyan;
-    border: 1px solid black;
-    padding-left: 20px;
+a:link {
+    color: #105020;
+}
+
+a:visited {
+    color: #509050;
 }
 
 h1 {
