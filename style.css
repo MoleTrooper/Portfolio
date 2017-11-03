@@ -1,18 +1,13 @@
 body {
-    margin: 0;
-    padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.content, .year {
-    width: 100%;
-    margin: 0;
-    padding: 5px 0;
-}
-
-.topHeader, .year {
     background: url('bggradient.svg') no-repeat, url('stripepattern.svg') repeat;
     background-size: 100% 100%, 80px 80px;
+}
+
+body, .content, .year {
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .topHeader {
@@ -28,17 +23,65 @@ body {
     font-size: 14px;
 }
 
-.entry {
-    width: 100%;
-    margin-left: 20px;
-}
-
 .h1Container {
     width: 100%;
     background: url('header.svg');
     padding: 10px 0;
     text-align: center;
+    clear: both;
 }
+
+
+
+.entry {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.img {
+    width: 50%;
+    flex: 0 0 50%;
+    order: 2;
+    background-size: 100% 100%;
+    opacity: .7;
+}
+
+.text {
+    padding: 0 20px;
+    flex: 0 0 50%;
+    order: 1;
+}
+
+#imgEngine {
+    background-image: url('engine.gif');
+}
+
+#imgCC {
+    background-color: gray;
+}
+
+#imgGd {
+    background-image: url('grappledash.gif');
+}
+
+#imgNMC {
+    background-color: green;
+}
+
+#imgDoS {
+    background-color: blue;
+}
+
+#imgFlash {
+    background-color: red;
+}
+
+#imgOA {
+    background-color: cyan;
+}
+
+
 
 a:link {
     color: #105020;
@@ -58,9 +101,9 @@ h2 {
 
 h3 {
     font-size: 23px;
+    margin-top: 8px;
 }
 
 p {
-    max-width: 50%;
     font-size: 20px;
 }
