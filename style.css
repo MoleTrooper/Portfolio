@@ -41,15 +41,15 @@ body, .content, .year {
 
 .img {
     width: 50%;
-    flex: 0 0 50%;
+    flex: 0 0 600px;
     order: 2;
     background-size: 100% 100%;
-    opacity: .7;
+    opacity: .8;
 }
 
 .text {
     padding: 0 20px;
-    flex: 0 0 50%;
+    flex: 1 0 0;
     order: 1;
 }
 
@@ -58,7 +58,7 @@ body, .content, .year {
 }
 
 #imgCC {
-    background-color: gray;
+    background-image: url('chaoscave.gif');
 }
 
 #imgGd {
