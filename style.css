@@ -77,7 +77,7 @@ body, .content, .year {
 }
 
 #imgFlash {
-    background-color: red;
+    background-image: url('flash.gif');
 }
 
 #imgOA {
