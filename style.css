@@ -69,11 +69,11 @@ body, .content, .year {
 }
 
 #imgNMC {
-    background-color: green;
+    background-image: url('nmc.png');
 }
 
 #imgDoS {
-    background-color: blue;
+    background-image: url('tdos.png');
 }
 
 #imgFlash {
