@@ -56,6 +56,7 @@ body, .content, .year {
 
 #imgEngine {
     background-image: url('engine.gif');
+    min-height: 200px;
 }
 
 #imgCC {
@@ -70,18 +71,22 @@ body, .content, .year {
 
 #imgNMC {
     background-image: url('nmc.png');
+    min-height: 350px;
 }
 
 #imgDoS {
     background-image: url('tdos.png');
+    min-height: 300px;
 }
 
 #imgFlash {
     background-image: url('flash.gif');
+    min-height: 300px;
 }
 
 #imgOA {
-    background-color: cyan;
+    background-image: url('oa.gif');
+    min-height: 300px;
 }
 
 
