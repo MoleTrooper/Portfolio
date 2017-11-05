@@ -41,7 +41,6 @@ body, .content, .year {
 }
 
 .img {
-    width: 50%;
     flex: 0 0 600px;
     order: 2;
     background-size: 100% 100%;
@@ -49,9 +48,20 @@ body, .content, .year {
 }
 
 .text {
-    padding: 0 20px;
+    padding: 0 20px 15px;
     flex: 1 0 0;
     order: 1;
+}
+
+/* Images between text for mobile / other narrow monitors */
+@media (max-width: 1200px) {
+    .entry {
+        flex-direction: column;
+    }
+
+    .img {
+        flex: 0 0 400px;
+    }
 }
 
 #imgEngine {
